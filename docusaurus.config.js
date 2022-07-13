@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: '知识库',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'xiping.wang', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -57,12 +57,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '知识库',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: '计算机网络',
+          },
           {
             type: 'doc',
             docId: 'intro',
