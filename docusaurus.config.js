@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'network/计算机网络-1.概述',
             position: 'left',
             label: '计算机网络',
           },
