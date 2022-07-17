@@ -67,14 +67,20 @@ const config = {
             type: 'doc',
             docId: 'network/计算机网络-1.概述',
             position: 'left',
-            label: '计算机网络',
+            label: '数据结构',
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'network/计算机网络-1.概述',
             position: 'left',
-            label: 'Tutorial',
+            label: '计算机网络',
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/The-End-Hero',
