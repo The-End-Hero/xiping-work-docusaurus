@@ -27,7 +27,13 @@ const sidebars = {
   networkBar: [{
     type: 'category',
     label: '计算机网络',
-    items:   ['network/计算机网络-1.概述', 'network/计算机网络-2.物理层', 'network/计算机网络-3.数据链路层', 'network/计算机网络-4.网络层' ,'network/计算机网络-6.应用层']
+    items:   [
+        'network/计算机网络-1.概述',
+      'network/计算机网络-2.物理层',
+      'network/计算机网络-3.数据链路层',
+      'network/计算机网络-4.网络层',
+      'network/计算机网络-5.传输层',
+      'network/计算机网络-6.应用层']
   }],
 };
 
