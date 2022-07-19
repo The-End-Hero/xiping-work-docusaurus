@@ -33,7 +33,8 @@ const sidebars = {
       'network/计算机网络-3.数据链路层',
       'network/计算机网络-4.网络层',
       'network/计算机网络-5.传输层',
-      'network/计算机网络-6.应用层']
+      'network/计算机网络-6.应用层'
+    ]
   }],
 };
 
