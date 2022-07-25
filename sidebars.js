@@ -36,6 +36,20 @@ const sidebars = {
       'network/计算机网络-6.应用层'
     ]
   }],
+  dataStructuresBar: [{
+    type: 'category',
+    label:'数据结构',
+    items: [
+        'data-structures/数据结构-1.链表'
+    ]
+  }],
+  operatingSystemBar: [{
+    type: 'category',
+    label:'操作系统',
+    items: [
+      'operating-system/操作系统-1.概述'
+    ]
+  }],
 };
 
 module.exports = sidebars;

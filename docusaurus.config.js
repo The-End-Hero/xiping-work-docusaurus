@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'network/计算机网络-1.概述',
+            docId: 'data-structures/数据结构-1.链表',
             position: 'left',
             label: '数据结构',
           },
@@ -74,6 +74,12 @@ const config = {
             docId: 'network/计算机网络-1.概述',
             position: 'left',
             label: '计算机网络',
+          },
+          {
+            type: 'doc',
+            docId: 'operating-system/操作系统-1.概述',
+            position: 'left',
+            label: '操作系统',
           },
           // {
           //   type: 'doc',
