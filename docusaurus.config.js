@@ -102,12 +102,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '数据结构',
+                to: '/docs/operating-system/操作系统-1.概述',
+              },
+              {
+                label: '操作系统',
+                to: '/docs/operating-system/操作系统-1.概述',
               },
               {
                 label: '计算机网络',
-                to: '/docs/network',
+                to: '/docs/network/计算机网络-1.概述',
               },
             ],
           },

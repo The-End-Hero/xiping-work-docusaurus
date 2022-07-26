@@ -47,7 +47,9 @@ const sidebars = {
     type: 'category',
     label:'操作系统',
     items: [
-      'operating-system/操作系统-1.概述'
+      'operating-system/操作系统-1.概述',
+      'operating-system/操作系统-2.进程管理',
+      'operating-system/操作系统-3.内存管理',
     ]
   }],
 };
