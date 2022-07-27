@@ -26,7 +26,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: [
+    'plugin-image-zoom'
+  ],
   presets: [
     [
       'classic',
@@ -81,6 +83,12 @@ const config = {
             position: 'left',
             label: '操作系统',
           },
+          {
+            type: 'doc',
+            docId: 'operating-system/操作系统-1.概述',
+            position: 'left',
+            label: 'Golang',
+          },
           // {
           //   type: 'doc',
           //   docId: 'intro',
@@ -99,7 +107,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '计算机',
             items: [
               {
                 label: '数据结构',
@@ -147,6 +155,23 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} xiping.wang, Inc. Built with Docusaurus.`,
+      },
+      announcementBar: {
+        // id: 'support_us',
+        content:
+            '如果觉得对您有帮助<a target="_blank" rel="noopener noreferrer" href="#">这个调查</a>',
+        backgroundColor: '#544a31',
+        textColor: '#dbdce7',
+        isCloseable: false,
+      },
+      imageZoom: {
+        options: {
+          // margin: 0,
+          // background: 'rgba(0,0,0,0.3)',
+          // scrollOffset: 0,
+          // container: '#zoom-container',
+          // template: '#zoom-template',
+        },
       },
       prism: {
         theme: lightCodeTheme,
