@@ -159,20 +159,20 @@ const config = {
       announcementBar: {
         // id: 'support_us',
         content:
-            '如果觉得对您有帮助<a target="_blank" rel="noopener noreferrer" href="#">这个调查</a>',
+            '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者<a target="_blank" rel="noopener noreferrer" href="#">GitHub</a>',
         backgroundColor: '#544a31',
         textColor: '#dbdce7',
         isCloseable: false,
       },
-      imageZoom: {
-        options: {
-          // margin: 0,
-          // background: 'rgba(0,0,0,0.3)',
-          // scrollOffset: 0,
-          // container: '#zoom-container',
-          // template: '#zoom-template',
-        },
-      },
+      // imageZoom: {
+      //   options: {
+      //     margin: 0,
+      //     background: 'rgba(0,0,0,0.3)',
+      //     scrollOffset: 0,
+      //     container: '#zoom-container',
+      //     template: '#zoom-template',
+      //   },
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
