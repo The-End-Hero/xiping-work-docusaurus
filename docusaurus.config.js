@@ -79,13 +79,13 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'operating-system/操作系统-1.概述',
+            docId: 'operating-system/操作系统的基本概念',
             position: 'left',
             label: '操作系统',
           },
           {
             type: 'doc',
-            docId: 'operating-system/操作系统-1.概述',
+            docId: 'operating-system/操作系统的基本概念',
             position: 'left',
             label: 'Golang',
           },
@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: '数据结构',
-                to: '/docs/operating-system/操作系统-1.概述',
+                to: '/docs/operating-system/操作系统的基本概念',
               },
               {
                 label: '操作系统',
-                to: '/docs/operating-system/操作系统-1.概述',
+                to: '/docs/operating-system/操作系统的基本概念',
               },
               {
                 label: '计算机网络',

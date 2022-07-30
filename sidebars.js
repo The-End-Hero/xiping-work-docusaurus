@@ -47,9 +47,43 @@ const sidebars = {
     type: 'category',
     label:'操作系统',
     items: [
-      'operating-system/操作系统-1.概述',
-      'operating-system/操作系统-2.进程管理',
-      'operating-system/操作系统-3.内存管理',
+        {
+          type: 'category',
+          label: '1.概述',
+          items: [
+              'operating-system/操作系统的基本概念',
+              'operating-system/操作系统的发展和分类',
+              'operating-system/操作系统的运行机制和体系结构',
+          ]
+        },
+      {
+        type: 'category',
+        label: '2.进程管理',
+        items: [
+            'operating-system/进程与线程',
+            'operating-system/处理机的调度',
+            'operating-system/进程的同步与互斥',
+            'operating-system/死锁',
+        ]
+      },
+      {
+        type: 'category',
+        label: '3.内存管理',
+        items: ['operating-system/操作系统-3.内存管理']
+      },
+      {
+        type: 'category',
+        label: '4.文件管理',
+        items: ['operating-system/操作系统-3.内存管理']
+      },
+      {
+        type: 'category',
+        label: '5.I/O管理',
+        items: ['operating-system/操作系统-3.内存管理']
+      },
+      // 'operating-system/操作系统-1.概述',
+      // 'operating-system/操作系统-2.进程管理',
+      // 'operating-system/操作系统-3.内存管理',
     ]
   }],
 };
