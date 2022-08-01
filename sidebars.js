@@ -69,17 +69,20 @@ const sidebars = {
       {
         type: 'category',
         label: '3.内存管理',
-        items: ['operating-system/操作系统-3.内存管理']
+        items: [
+            'operating-system/内存管理的概念',
+            'operating-system/虚拟内存管理',
+        ]
       },
       {
         type: 'category',
         label: '4.文件管理',
-        items: ['operating-system/操作系统-3.内存管理']
+        items: ['operating-system/文件系统']
       },
       {
         type: 'category',
         label: '5.I/O管理',
-        items: ['operating-system/操作系统-3.内存管理']
+        items: ['operating-system/I/O管理概述']
       },
       // 'operating-system/操作系统-1.概述',
       // 'operating-system/操作系统-2.进程管理',
