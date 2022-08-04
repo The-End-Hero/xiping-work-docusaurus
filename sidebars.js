@@ -77,7 +77,10 @@ const sidebars = {
       {
         type: 'category',
         label: '4.文件管理',
-        items: ['operating-system/文件系统']
+        items: [
+            'operating-system/文件系统',
+            'operating-system/磁盘组织与管理',
+        ]
       },
       {
         type: 'category',
