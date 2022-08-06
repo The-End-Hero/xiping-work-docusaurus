@@ -66,29 +66,73 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'data-structures/数据结构-1.链表',
+            type: 'dropdown',
+            label: '计算机基础',
             position: 'left',
-            label: '数据结构',
+            items: [
+              {
+                type: 'doc',
+                label: '计算机网络',
+                docId: 'network/计算机网络-1.概述',
+              },
+              {
+                type: 'doc',
+                label: '操作系统',
+                docId: 'operating-system/操作系统的基本概念',
+              },
+              // ... more items
+            ],
           },
           {
-            type: 'doc',
-            docId: 'network/计算机网络-1.概述',
+            type: 'dropdown',
+            label: '数据结构与算法',
             position: 'left',
-            label: '计算机网络',
+            items: [
+              {
+                type: 'doc',
+                label: '数据结构',
+                docId: 'data-structures/数据结构-1.链表',
+              },
+              // ... more items
+            ],
           },
           {
-            type: 'doc',
-            docId: 'operating-system/操作系统的基本概念',
+            type: 'dropdown',
+            label: '前端',
             position: 'left',
-            label: '操作系统',
+            items: [
+              {
+                type: 'doc',
+                label: '数据结构',
+                docId: 'data-structures/数据结构-1.链表',
+              },
+              // ... more items
+            ],
           },
-          {
-            type: 'doc',
-            docId: 'operating-system/操作系统的基本概念',
-            position: 'left',
-            label: 'Golang',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'data-structures/数据结构-1.链表',
+          //   position: 'left',
+          //   label: '数据结构',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'network/计算机网络-1.概述',
+          //   position: 'left',
+          //   label: '计算机网络',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'operating-system/操作系统的基本概念',
+          //   position: 'left',
+          //   label: '操作系统',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'operating-system/操作系统的基本概念',
+          //   position: 'left',
+          //   label: 'Golang',
+          // },
           // {
           //   type: 'doc',
           //   docId: 'intro',
