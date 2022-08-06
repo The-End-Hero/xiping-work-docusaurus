@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '知识库',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://doc.xiping.work',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -149,7 +149,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/The-End-Hero/ ',
+                href: 'https://github.com/The-End-Hero/xiping-work-docusaurus',
               },
             ],
           },
@@ -159,7 +159,7 @@ const config = {
       announcementBar: {
         // id: 'support_us',
         content:
-            '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者<a target="_blank" rel="noopener noreferrer" href="#">GitHub</a>',
+            '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者<a target="_blank" rel="noopener noreferrer" href="https://github.com/The-End-Hero/xiping-work-docusaurus">GitHub</a>',
         backgroundColor: '#544a31',
         textColor: '#dbdce7',
         isCloseable: false,
