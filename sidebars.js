@@ -85,7 +85,10 @@ const sidebars = {
       {
         type: 'category',
         label: '5.I/O管理',
-        items: ['operating-system/I/O管理概述']
+        items: [
+            'operating-system/I-O管理概述',
+            'operating-system/I-O核心子系统',
+        ]
       },
       // 'operating-system/操作系统-1.概述',
       // 'operating-system/操作系统-2.进程管理',
