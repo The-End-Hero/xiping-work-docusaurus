@@ -1,40 +1,40 @@
-name: deploy to tencent
+name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
-      - master
+      - main
+    # 如果你想要进一步定义触发条件、路径等，可以查看文档
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+
 jobs:
-  build:
+  deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      # 切换分支
-      - name: Checkout
-        uses: actions/checkout@master
-      - name: Trust My Directory
-        run: git config --global --add safe.directory /github/workspace
-      # 下载 git submodule
-#      - uses: srt32/git-actions@v0.0.3
-#        with:
-#          args: git submodule update --init --recursive
-      # 使用 node:16
-      - name: use Node.js 16
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      # npm install
-      - name: npm install and build
-        run: |
-          npm install
-          npm run build
-        env:
-          CI: true
-      # Deploy
-      - name: Deploy tencentyun
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "dist/"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: "root"
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+        run: npm run build
+
+      # 部署到 GitHub Pages 的热门选择：
+      # 文档：https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 要发布到 `gh-pages` 分支的构建输出：
+          publish_dir: ./build
+          # 下面两行会将此次部署 commit 的作者设置为官方的
+          # GH-Actions 机器人：
+          # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+          # 如果不设置这两个字段，GH actions 机器人会被默认使用。
+          # 你可以用自己的用户信息替换它们。
+          # user_name: github-actions[bot]
+          # user_email: 41898282+github-actions[bot]@users.noreply.github.com
