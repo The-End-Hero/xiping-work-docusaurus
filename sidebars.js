@@ -40,7 +40,14 @@ const sidebars = {
     type: 'category',
     label:'数据结构',
     items: [
-        'data-structures/数据结构-1.链表'
+        'data-structures/数据结构-数组',
+        'data-structures/数据结构-栈',
+        'data-structures/数据结构-队列',
+        'data-structures/数据结构-链表',
+        'data-structures/数据结构-树',
+        'data-structures/数据结构-散列表',
+        'data-structures/数据结构-堆',
+        'data-structures/数据结构-图',
     ]
   }],
   operatingSystemBar: [{

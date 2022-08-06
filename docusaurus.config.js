@@ -91,7 +91,7 @@ const config = {
               {
                 type: 'doc',
                 label: '数据结构',
-                docId: 'data-structures/数据结构-1.链表',
+                docId: 'data-structures/数据结构-链表',
               },
               // ... more items
             ],
@@ -104,14 +104,14 @@ const config = {
               {
                 type: 'doc',
                 label: '数据结构',
-                docId: 'data-structures/数据结构-1.链表',
+                docId: 'data-structures/数据结构-链表',
               },
               // ... more items
             ],
           },
           // {
           //   type: 'doc',
-          //   docId: 'data-structures/数据结构-1.链表',
+          //   docId: 'data-structures/数据结构-链表',
           //   position: 'left',
           //   label: '数据结构',
           // },
