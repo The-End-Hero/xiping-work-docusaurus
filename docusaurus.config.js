@@ -103,8 +103,13 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: '数据结构',
-                docId: 'data-structures/数据结构-链表',
+                label: 'react相关',
+                docId: 'react/状态管理',
+              },
+              {
+                type: 'doc',
+                label: '工程化相关',
+                docId: 'front-end-engineering/包管理工具',
               },
               // ... more items
             ],
