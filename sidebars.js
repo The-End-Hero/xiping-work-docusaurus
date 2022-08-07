@@ -50,6 +50,20 @@ const sidebars = {
         'data-structures/数据结构-图',
     ]
   }],
+    reactBar:[{
+        type: 'category',
+        label:'react',
+        items: [
+            'react/状态管理',
+        ]
+    }],
+    frontEndEngineeringBar:[{
+        type: 'category',
+        label:'工程化',
+        items: [
+            'front-end-engineering/包管理工具',
+        ]
+    }],
   operatingSystemBar: [{
     type: 'category',
     label:'操作系统',
