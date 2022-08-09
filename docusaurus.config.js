@@ -91,7 +91,7 @@ const config = {
               {
                 type: 'doc',
                 label: '数据结构',
-                docId: 'data-structures/数据结构-链表',
+                docId: 'data-structures/数据结构-数组',
               },
               // ... more items
             ],
@@ -223,15 +223,15 @@ const config = {
         textColor: '#dbdce7',
         isCloseable: false,
       },
-      // imageZoom: {
-      //   options: {
-      //     margin: 0,
-      //     background: 'rgba(0,0,0,0.3)',
-      //     scrollOffset: 0,
-      //     container: '#zoom-container',
-      //     template: '#zoom-template',
-      //   },
-      // },
+      imageZoom: {
+        options: {
+          // margin: 0,
+          background: 'var(--img-bgc)',
+          // scrollOffset: 0,
+          // container: '#zoom-container',
+          // template: '#zoom-template',
+        },
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

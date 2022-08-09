@@ -64,6 +64,14 @@ const sidebars = {
             'front-end-engineering/包管理工具',
         ]
     }],
+    browserBar: [{
+      type: 'category',
+        label:'浏览器相关',
+        items: [
+            'browser/浏览器架构',
+            'browser/浏览器事件机制',
+        ]
+    }],
   operatingSystemBar: [{
     type: 'category',
     label:'操作系统',
