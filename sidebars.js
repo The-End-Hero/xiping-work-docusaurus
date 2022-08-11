@@ -72,6 +72,22 @@ const sidebars = {
             'browser/浏览器事件机制',
         ]
     }],
+    handwriteBar: [{
+      type: 'category',
+        label:'手写系列',
+        items: [
+            'handwrite/call',
+            'handwrite/apply',
+            'handwrite/bind',
+            'handwrite/new',
+            'handwrite/curry',
+            'handwrite/throttle',
+            'handwrite/debounce',
+            'handwrite/async-pool',
+            'handwrite/lru-cache',
+            'handwrite/deep-clone',
+        ],
+    }],
   operatingSystemBar: [{
     type: 'category',
     label:'操作系统',

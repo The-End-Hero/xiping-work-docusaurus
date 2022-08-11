@@ -119,7 +119,7 @@ const config = {
               {
                 type: 'doc',
                 label: '手写系列',
-                docId: 'handwrite/手写系列'
+                docId: 'handwrite/call'
               }
               // ... more items
             ],
