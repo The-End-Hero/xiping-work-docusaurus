@@ -69,6 +69,7 @@ const sidebars = {
         label:'浏览器相关',
         items: [
             'browser/浏览器架构',
+            'browser/浏览器缓存',
             'browser/浏览器事件机制',
         ]
     }],
