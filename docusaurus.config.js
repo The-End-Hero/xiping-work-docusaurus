@@ -103,6 +103,11 @@ const config = {
                 label: '数据结构',
                 docId: 'data-structures/数据结构-数组',
               },
+              {
+                type: 'doc',
+                label: '常见算法',
+                docId: 'data-structures/数据结构-数组',
+              },
               // ... more items
             ],
           },
@@ -134,6 +139,18 @@ const config = {
               // ... more items
             ],
           },
+          // {
+          //   type: 'dropdown',
+          //   label: '英语',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       type: 'doc',
+          //       label: '词根词缀',
+          //       docId: 'english/rootsandaffixes'
+          //     }
+          //   ]
+          // },
           // {
           //   type: 'doc',
           //   docId: 'data-structures/数据结构-链表',
