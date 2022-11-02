@@ -135,6 +135,11 @@ const config = {
                 type: 'doc',
                 label: '手写系列',
                 docId: 'handwrite/call'
+              },
+              {
+                type: "doc",
+                label: "webgl",
+                docId: "webgl/webgl"
               }
               // ... more items
             ],

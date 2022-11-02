@@ -50,6 +50,13 @@ const sidebars = {
         'data-structures/数据结构-图',
     ]
   }],
+    webglBar: [{
+      type: "category",
+        label: "webgl",
+        items: [
+            "webgl/webgl"
+        ]
+    }],
     reactBar:[{
         type: 'category',
         label:'react',
